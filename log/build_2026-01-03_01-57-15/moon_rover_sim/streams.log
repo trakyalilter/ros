@@ -1,0 +1,32 @@
+[0.026s] Invoking command in '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim -- -j16 -l16
+[0.055s] Invoked command in '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim -- -j16 -l16
+[0.069s] Invoking command in '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim
+[0.077s] -- Install configuration: ""
+[0.078s] -- Execute custom install script
+[0.078s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/urdf/lidar.urdf.xacro
+[0.078s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/urdf/rover.urdf.xacro
+[0.078s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/worlds/moon.world
+[0.079s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/launch/navigation.launch.py
+[0.079s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/launch/rviz.launch.py
+[0.079s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/launch/simulation.launch.py
+[0.079s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/rviz/nav2.rviz
+[0.079s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/rviz/rover.rviz
+[0.080s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/config/nav2_params.yaml
+[0.080s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/config/rover_params.yaml
+[0.080s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/config/slam_params.yaml
+[0.080s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/ament_index/resource_index/package_run_dependencies/moon_rover_sim
+[0.080s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/ament_index/resource_index/parent_prefix_path/moon_rover_sim
+[0.080s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/environment/ament_prefix_path.dsv
+[0.081s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/environment/path.sh
+[0.081s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/environment/path.dsv
+[0.081s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/local_setup.bash
+[0.081s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/local_setup.sh
+[0.081s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/local_setup.zsh
+[0.082s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/local_setup.dsv
+[0.082s] -- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/package.dsv
+[0.093s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/ament_index/resource_index/packages/moon_rover_sim
+[0.094s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/cmake/moon_rover_simConfig.cmake
+[0.094s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/cmake/moon_rover_simConfig-version.cmake
+[0.094s] -- Up-to-date symlink: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/package.xml
+[0.097s] Invoked command in '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim
