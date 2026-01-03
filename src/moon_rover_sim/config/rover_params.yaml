@@ -1,0 +1,17 @@
+# Moon Rover Parameters
+moon_rover_sim:
+  ros__parameters:
+    # Robot parameters
+    robot_name: "moon_rover"
+    
+    # Wheel parameters
+    wheel_radius: 0.1
+    wheel_separation: 0.45
+    
+    # Lidar parameters
+    lidar_range_min: 0.15
+    lidar_range_max: 12.0
+    lidar_samples: 360
+    
+    # Simulation
+    use_sim_time: true
