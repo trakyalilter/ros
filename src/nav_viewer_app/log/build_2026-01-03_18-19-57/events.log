@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.000871] (nav_viewer) JobQueued: {'identifier': 'nav_viewer', 'dependencies': OrderedDict()}
+[0.000967] (nav_viewer) JobStarted: {'identifier': 'nav_viewer'}
+[0.099450] (-) TimerEvent: {}
+[0.199793] (-) TimerEvent: {}
+[0.300154] (-) TimerEvent: {}
+[0.400516] (-) TimerEvent: {}
+[0.501098] (-) TimerEvent: {}
+[0.601539] (-) TimerEvent: {}
+[0.702610] (-) TimerEvent: {}
+[0.798884] (nav_viewer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer/build', '--no-deps'], 'cwd': '/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer', 'env': {'VNCDESKTOP': 'ebeead3a0b41:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'ebeead3a0b41', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/ubuntu/Desktop/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.104.0', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'LC_CTYPE': 'C.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-HEGd0TDkbn,guid=0f31b348808297c31992d9bd6958d839', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1312', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-697PI3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/ebeead3a0b41:@/tmp/.ICE-unix/79,unix/ebeead3a0b41:/tmp/.ICE-unix/79', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ce6a0aa80f.sock', 'SUPERVISOR_ENABLED': '1', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-697PI3/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'MATE', 'DEBIAN_FRONTEND': 'noninteractive', 'TERMINATOR_UUID': 'urn:uuid:6424b0bf-8356-4cf1-ae2e-1c1b70c84211', 'NO_AT_BRIDGE': '1', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer', 'DBUS_STARTER_ADDRESS': 'unix:abstract=/tmp/dbus-HEGd0TDkbn,guid=0f31b348808297c31992d9bd6958d839', 'PYTHONPATH': '/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/install/nav_viewer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[0.802742] (-) TimerEvent: {}
+[0.912033] (-) TimerEvent: {}
+[1.012474] (-) TimerEvent: {}
+[1.112882] (-) TimerEvent: {}
+[1.213212] (-) TimerEvent: {}
+[1.243878] (nav_viewer) StdoutLine: {'line': b'running develop\n'}
+[1.313400] (-) TimerEvent: {}
+[1.413970] (-) TimerEvent: {}
+[1.473246] (nav_viewer) StdoutLine: {'line': b'running egg_info\n'}
+[1.473552] (nav_viewer) StdoutLine: {'line': b'creating nav_viewer.egg-info\n'}
+[1.473941] (nav_viewer) StdoutLine: {'line': b'writing nav_viewer.egg-info/PKG-INFO\n'}
+[1.474366] (nav_viewer) StdoutLine: {'line': b'writing dependency_links to nav_viewer.egg-info/dependency_links.txt\n'}
+[1.474692] (nav_viewer) StdoutLine: {'line': b'writing entry points to nav_viewer.egg-info/entry_points.txt\n'}
+[1.474943] (nav_viewer) StdoutLine: {'line': b'writing requirements to nav_viewer.egg-info/requires.txt\n'}
+[1.475280] (nav_viewer) StdoutLine: {'line': b'writing top-level names to nav_viewer.egg-info/top_level.txt\n'}
+[1.475647] (nav_viewer) StdoutLine: {'line': b"writing manifest file 'nav_viewer.egg-info/SOURCES.txt'\n"}
+[1.478675] (nav_viewer) StdoutLine: {'line': b"reading manifest file 'nav_viewer.egg-info/SOURCES.txt'\n"}
+[1.481055] (nav_viewer) StdoutLine: {'line': b"writing manifest file 'nav_viewer.egg-info/SOURCES.txt'\n"}
+[1.481400] (nav_viewer) StdoutLine: {'line': b'running build_ext\n'}
+[1.481659] (nav_viewer) StdoutLine: {'line': b'Creating /home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/install/nav_viewer/lib/python3.10/site-packages/nav-viewer.egg-link (link to .)\n'}
+[1.482632] (nav_viewer) StdoutLine: {'line': b'Installing nav-viewer script to /home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/install/nav_viewer/bin\n'}
+[1.483159] (nav_viewer) StdoutLine: {'line': b'\n'}
+[1.483311] (nav_viewer) StdoutLine: {'line': b'Installed /home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer\n'}
+[1.514102] (-) TimerEvent: {}
+[1.521466] (nav_viewer) CommandEnded: {'returncode': 0}
+[1.548065] (nav_viewer) JobEnded: {'identifier': 'nav_viewer', 'rc': 0}
+[1.549689] (-) EventReactorShutdown: {}

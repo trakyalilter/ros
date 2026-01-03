@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000121] (moon_rover_sim) JobQueued: {'identifier': 'moon_rover_sim', 'dependencies': OrderedDict()}
+[0.000248] (moon_rover_sim) JobStarted: {'identifier': 'moon_rover_sim'}
+[0.007178] (moon_rover_sim) JobProgress: {'identifier': 'moon_rover_sim', 'progress': 'cmake'}
+[0.007893] (moon_rover_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Desktop/ros2_ws/src/moon_rover_sim/src/moon_rover_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim'], 'cwd': '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim', 'env': OrderedDict([('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PASSWD', 'ubuntu'), ('PWD', '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.074017] (moon_rover_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099156] (-) TimerEvent: {}
+[0.136487] (moon_rover_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.140896] (moon_rover_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.187892] (moon_rover_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.192143] (moon_rover_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.192439] (moon_rover_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.192720] (moon_rover_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.194564] (moon_rover_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199282] (-) TimerEvent: {}
+[0.244648] (moon_rover_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.249121] (moon_rover_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.249237] (moon_rover_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.249450] (moon_rover_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.251373] (moon_rover_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299431] (-) TimerEvent: {}
+[0.361142] (moon_rover_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399685] (-) TimerEvent: {}
+[0.409782] (moon_rover_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.431249] (moon_rover_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.491030] (moon_rover_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.492465] (moon_rover_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.492860] (moon_rover_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.495364] (moon_rover_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.496174] (moon_rover_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.497352] (moon_rover_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.499795] (-) TimerEvent: {}
+[0.500054] (moon_rover_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[0.501279] (moon_rover_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim\n'}
+[0.504034] (moon_rover_sim) CommandEnded: {'returncode': 0}
+[0.505420] (moon_rover_sim) JobProgress: {'identifier': 'moon_rover_sim', 'progress': 'build'}
+[0.505460] (moon_rover_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim', 'env': OrderedDict([('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PASSWD', 'ubuntu'), ('PWD', '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.527756] (moon_rover_sim) CommandEnded: {'returncode': 0}
+[0.528595] (moon_rover_sim) JobProgress: {'identifier': 'moon_rover_sim', 'progress': 'install'}
+[0.533523] (moon_rover_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim'], 'cwd': '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim', 'env': OrderedDict([('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PASSWD', 'ubuntu'), ('PWD', '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.537890] (moon_rover_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.538203] (moon_rover_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.538851] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/urdf/lidar.urdf.xacro\n'}
+[0.543352] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/urdf/rover.urdf.xacro\n'}
+[0.548478] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/worlds/moon.world\n'}
+[0.553708] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/launch/navigation.launch.py\n'}
+[0.558330] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/launch/rviz.launch.py\n'}
+[0.563993] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/launch/simulation.launch.py\n'}
+[0.569347] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/rviz/nav2.rviz\n'}
+[0.574324] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/rviz/rover.rviz\n'}
+[0.579713] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/config/nav2_params.yaml\n'}
+[0.585187] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/config/rover_params.yaml\n'}
+[0.589923] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/config/slam_params.yaml\n'}
+[0.597002] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/ament_index/resource_index/package_run_dependencies/moon_rover_sim\n'}
+[0.599882] (-) TimerEvent: {}
+[0.602128] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/ament_index/resource_index/parent_prefix_path/moon_rover_sim\n'}
+[0.607154] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/environment/ament_prefix_path.sh\n'}
+[0.612088] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/environment/ament_prefix_path.dsv\n'}
+[0.617021] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/environment/path.sh\n'}
+[0.623851] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/environment/path.dsv\n'}
+[0.627987] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/local_setup.bash\n'}
+[0.633125] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/local_setup.sh\n'}
+[0.637342] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/local_setup.zsh\n'}
+[0.641883] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/local_setup.dsv\n'}
+[0.646395] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/package.dsv\n'}
+[0.651329] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/ament_index/resource_index/packages/moon_rover_sim\n'}
+[0.656951] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/cmake/moon_rover_simConfig.cmake\n'}
+[0.662687] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/cmake/moon_rover_simConfig-version.cmake\n'}
+[0.667759] (moon_rover_sim) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/ros2_ws/install/moon_rover_sim/share/moon_rover_sim/package.xml\n'}
+[0.673559] (moon_rover_sim) CommandEnded: {'returncode': 0}
+[0.686131] (moon_rover_sim) JobEnded: {'identifier': 'moon_rover_sim', 'rc': 0}
+[0.687387] (-) EventReactorShutdown: {}

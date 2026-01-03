@@ -1,0 +1,16 @@
+[0.454s] Invoking command in '/home/ubuntu/Desktop/ros2_ws/build/nav_viewer': PYTHONPATH=/home/ubuntu/Desktop/ros2_ws/build/nav_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/ros2_ws/install/nav_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/ros2_ws/build/nav_viewer/build --no-deps
+[0.628s] running develop
+[0.728s] running egg_info
+[0.728s] writing nav_viewer.egg-info/PKG-INFO
+[0.728s] writing dependency_links to nav_viewer.egg-info/dependency_links.txt
+[0.728s] writing entry points to nav_viewer.egg-info/entry_points.txt
+[0.728s] writing requirements to nav_viewer.egg-info/requires.txt
+[0.728s] writing top-level names to nav_viewer.egg-info/top_level.txt
+[0.730s] reading manifest file 'nav_viewer.egg-info/SOURCES.txt'
+[0.730s] writing manifest file 'nav_viewer.egg-info/SOURCES.txt'
+[0.731s] running build_ext
+[0.731s] Creating /home/ubuntu/Desktop/ros2_ws/install/nav_viewer/lib/python3.10/site-packages/nav-viewer.egg-link (link to .)
+[0.733s] Installing nav-viewer script to /home/ubuntu/Desktop/ros2_ws/install/nav_viewer/bin
+[0.733s] 
+[0.733s] Installed /home/ubuntu/Desktop/ros2_ws/build/nav_viewer
+[0.754s] Invoked command in '/home/ubuntu/Desktop/ros2_ws/build/nav_viewer' returned '0': PYTHONPATH=/home/ubuntu/Desktop/ros2_ws/build/nav_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/ros2_ws/install/nav_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/ros2_ws/build/nav_viewer/build --no-deps

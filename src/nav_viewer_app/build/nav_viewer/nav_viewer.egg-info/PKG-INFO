@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nav-viewer
+Version: 1.0.0
+Summary: PyQt5 ROS2 Navigation Viewer with Hexagonal Architecture
+Home-page: UNKNOWN
+Author: Navigation Team
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+
+UNKNOWN
+

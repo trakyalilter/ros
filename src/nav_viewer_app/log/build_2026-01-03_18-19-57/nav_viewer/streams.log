@@ -1,0 +1,18 @@
+[0.799s] Invoking command in '/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer': PYTHONPATH=/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/install/nav_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer/build --no-deps
+[1.243s] running develop
+[1.472s] running egg_info
+[1.473s] creating nav_viewer.egg-info
+[1.473s] writing nav_viewer.egg-info/PKG-INFO
+[1.473s] writing dependency_links to nav_viewer.egg-info/dependency_links.txt
+[1.474s] writing entry points to nav_viewer.egg-info/entry_points.txt
+[1.474s] writing requirements to nav_viewer.egg-info/requires.txt
+[1.475s] writing top-level names to nav_viewer.egg-info/top_level.txt
+[1.475s] writing manifest file 'nav_viewer.egg-info/SOURCES.txt'
+[1.478s] reading manifest file 'nav_viewer.egg-info/SOURCES.txt'
+[1.480s] writing manifest file 'nav_viewer.egg-info/SOURCES.txt'
+[1.481s] running build_ext
+[1.481s] Creating /home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/install/nav_viewer/lib/python3.10/site-packages/nav-viewer.egg-link (link to .)
+[1.482s] Installing nav-viewer script to /home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/install/nav_viewer/bin
+[1.482s] 
+[1.482s] Installed /home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer
+[1.521s] Invoked command in '/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer' returned '0': PYTHONPATH=/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/install/nav_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/ros2_ws/src/nav_viewer_app/build/nav_viewer/build --no-deps

@@ -1,0 +1,5 @@
+# Navigation Viewer - Python Dependencies
+# Note: rclpy and ROS2 message packages come from ROS2 installation, not pip
+
+PyQt5>=5.15.0
+numpy>=1.20.0

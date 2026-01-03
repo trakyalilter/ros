@@ -1,0 +1,16 @@
+running develop
+running egg_info
+creating nav_viewer.egg-info
+writing nav_viewer.egg-info/PKG-INFO
+writing dependency_links to nav_viewer.egg-info/dependency_links.txt
+writing entry points to nav_viewer.egg-info/entry_points.txt
+writing requirements to nav_viewer.egg-info/requires.txt
+writing top-level names to nav_viewer.egg-info/top_level.txt
+writing manifest file 'nav_viewer.egg-info/SOURCES.txt'
+reading manifest file 'nav_viewer.egg-info/SOURCES.txt'
+writing manifest file 'nav_viewer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/Desktop/ros2_ws/install/nav_viewer/lib/python3.10/site-packages/nav-viewer.egg-link (link to .)
+Installing nav-viewer script to /home/ubuntu/Desktop/ros2_ws/install/nav_viewer/bin
+
+Installed /home/ubuntu/Desktop/ros2_ws/build/nav_viewer

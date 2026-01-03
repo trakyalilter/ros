@@ -1,0 +1,3 @@
+[console_scripts]
+nav-viewer = nav_viewer.main:main
+

@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim -- -j16 -l16
+Invoked command in '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim -- -j16 -l16
+Invoking command in '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim
+Invoked command in '/home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/ros2_ws/build/moon_rover_sim

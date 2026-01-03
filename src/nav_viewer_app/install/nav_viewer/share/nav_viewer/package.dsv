@@ -1,0 +1,12 @@
+source;share/nav_viewer/hook/path.ps1
+source;share/nav_viewer/hook/path.dsv
+source;share/nav_viewer/hook/path.sh
+source;share/nav_viewer/hook/pythonpath.ps1
+source;share/nav_viewer/hook/pythonpath.dsv
+source;share/nav_viewer/hook/pythonpath.sh
+source;share/nav_viewer/hook/pythonscriptspath.ps1
+source;share/nav_viewer/hook/pythonscriptspath.dsv
+source;share/nav_viewer/hook/pythonscriptspath.sh
+source;../../build/nav_viewer/share/nav_viewer/hook/pythonpath_develop.ps1
+source;../../build/nav_viewer/share/nav_viewer/hook/pythonpath_develop.dsv
+source;../../build/nav_viewer/share/nav_viewer/hook/pythonpath_develop.sh
