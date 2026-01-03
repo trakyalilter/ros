@@ -1,0 +1,17 @@
+# Ignore build artifacts
+build/
+install/
+log/
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ROS2
+*.bag
+*.db3
