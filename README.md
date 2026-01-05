@@ -31,14 +31,14 @@ Once inside the container (via VNC):
 
 ### Terminal 1 - Start Simulation
 ```bash
-cd ~/Desktop/ros2_ws
+cd ~/Desktop/ros
 source install/setup.bash
 ros2 launch moon_rover_sim simulation.launch.py
 ```
 
 ### Terminal 2 - Start Navigation
 ```bash
-cd ~/Desktop/ros2_ws
+cd ~/Desktop/ros
 source install/setup.bash
 ros2 launch moon_rover_sim navigation.launch.py
 ```

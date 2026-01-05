@@ -20,28 +20,20 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Create workspace directory
-#WORKDIR /home/ubuntu/Desktop/ros
+WORKDIR /home/ubuntu/Desktop/ros
 
 # Clone the moon rover repository
-RUN git clone https://github.com/trakyalilter/ros.git
-RUN git config --global user.name "trakyalilter"
-RUN git config --global user.email "trakyalilter@gmail.com"
-RUN git remote add origin git@github.com:trakyalilter/ros.git
+RUN cd .. && git clone https://github.com/trakyalilter/ros.git
+
 # Build the workspace
 RUN /bin/bash -c "source /opt/ros/humble/setup.bash && \
     colcon build --symlink-install" || \
     echo "Build will complete when source is mounted"
 
-# Set ownership to ubuntu user
-RUN chown -R ubuntu:ubuntu /home/ubuntu/Desktop/ros
+# Add workspace sourcing to root's bashrc
+# The base image will handle copying environment to the ubuntu user
+RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
+    echo "source /home/ubuntu/Desktop/ros/install/setup.bash 2>/dev/null || true" >> /root/.bashrc
 
-# Add workspace sourcing to bashrc
-RUN echo "source /opt/ros/humble/setup.bash" >> /home/ubuntu/.bashrc && \
-    echo "source /home/ubuntu/Desktop/ros/install/setup.bash 2>/dev/null || true" >> /home/ubuntu/.bashrc
-
-# Set default user
-USER ubuntu
-WORKDIR /home/ubuntu/Desktop/ros
-
-# Default command (VNC is already set up by base image)
-CMD ["/bin/bash"]
+# Note: Don't set USER here - the base image's entrypoint needs to run as root
+# to create the ubuntu user and set up VNC. It will switch to ubuntu user automatically.
