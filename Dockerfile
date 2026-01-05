@@ -6,14 +6,6 @@ FROM tiryoh/ros2-desktop-vnc:humble
 ENV DEBIAN_FRONTEND=noninteractive
 ENV ROS_DISTRO=humble
 
-#Antigravity installation
-RUN sudo mkdir -p /etc/apt/keyrings
-curl -fsSL https://us-central1-apt.pkg.dev/doc/repo-signing-key.gpg | \
-  sudo gpg --dearmor --yes -o /etc/apt/keyrings/antigravity-repo-key.gpg
-echo "deb [signed-by=/etc/apt/keyrings/antigravity-repo-key.gpg] https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev/ antigravity-debian main" | \
-  sudo tee /etc/apt/sources.list.d/antigravity.list > /dev/null
-RUN sudo apt update
-RUN sudo apt install antigravity
 # Update ROS2 GPG key (fixes expired key issue)
 RUN curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 
@@ -28,23 +20,28 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Create workspace directory
-WORKDIR /home/ubuntu/Desktop/ros2_ws
+#WORKDIR /home/ubuntu/Desktop/ros
 
 # Clone the moon rover repository
-RUN git clone https://github.com/trakyalilter/ros.git src/moon_rover_sim || \
-    (mkdir -p src/moon_rover_sim && echo "Repository clone failed, mount manually")
-
+RUN git clone https://github.com/trakyalilter/ros.git
+RUN git config --global user.name "trakyalilter"
+RUN git config --global user.email "trakyalilter@gmail.com"
+RUN git remote add origin git@github.com:trakyalilter/ros.git
 # Build the workspace
 RUN /bin/bash -c "source /opt/ros/humble/setup.bash && \
     colcon build --symlink-install" || \
     echo "Build will complete when source is mounted"
 
-## Set ownership to the default user (usually UID 1000)
-RUN chown -R 1000:1000 /home/ubuntu/Desktop/ros2_ws
+# Set ownership to ubuntu user
+RUN chown -R ubuntu:ubuntu /home/ubuntu/Desktop/ros
 
 # Add workspace sourcing to bashrc
-RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
-    echo "source /home/ubuntu/Desktop/ros2_ws/install/setup.bash 2>/dev/null || true" >> /root/.bashrc
+RUN echo "source /opt/ros/humble/setup.bash" >> /home/ubuntu/.bashrc && \
+    echo "source /home/ubuntu/Desktop/ros/install/setup.bash 2>/dev/null || true" >> /home/ubuntu/.bashrc
 
-# Note: Don't set USER here - the base image's entrypoint needs to run as root
-# to create the ubuntu user and set up VNC. It will switch to ubuntu user automatically.
+# Set default user
+USER ubuntu
+WORKDIR /home/ubuntu/Desktop/ros
+
+# Default command (VNC is already set up by base image)
+CMD ["/bin/bash"]
